@@ -80,7 +80,7 @@ $dadosboleto["carteira"] = "175";  // Código da Carteira: pode ser 175, 174, 104
 
 // SEUS DADOS
 $dadosboleto["identificacao"] = "BoletoPhp - Código Aberto de Sistema de Boletos";
-$dadosboleto["cpf_cnpj"] = "";
+// $dadosboleto["cpf_cnpj"] = "";
 $dadosboleto["endereco"] = "Coloque o endereço da sua empresa aqui";
 $dadosboleto["cidade_uf"] = "Cidade / Estado";
 $dadosboleto["cedente"] = "Coloque a Razão Social da sua empresa aqui";
