@@ -59,7 +59,8 @@ de Impressão</DIV></TD></TR><TR><TD valign=top class=cp><DIV ALIGN="left">
 </span>
 </DIV></td></tr></table><br><table cellspacing=0 cellpadding=0 width=666 border=0><TBODY><TR><TD class=ct width=666><img height=1 src=imagens/6.png width=665 border=0></TD></TR><TR><TD class=ct width=666><div align=right><b class=cp>Recibo
 do Sacado</b></div></TD></tr></tbody></table><table width=666 cellspacing=5 cellpadding=0 border=0><tr><td width=41></TD></tr></table>
-<table width=666 cellspacing=5 cellpadding=0 border=0 align=Default>
+<!--
+	<table width=666 cellspacing=5 cellpadding=0 border=0 align=Default>
   <tr>
     <td width=41><IMG SRC="imagens/logo_empresa.png"></td>
     <td class=ti width=455><?php echo $dadosboleto["identificacao"]; ?> <?php echo isset($dadosboleto["cpf_cnpj"]) ? "<br>".$dadosboleto["cpf_cnpj"] : '' ?><br>
@@ -69,6 +70,7 @@ do Sacado</b></div></TD></tr></tbody></table><table width=666 cellspacing=5 cell
     <td align=RIGHT width=150 class=ti>&nbsp;</td>
   </tr>
 </table>
+-->	
 <BR><table cellspacing=0 cellpadding=0 width=666 border=0><tr><td class=cp width=150>
   <span class="campo"><IMG
       src="imagens/logoitau.jpg" width="150" height="40"
